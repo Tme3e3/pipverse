@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pipverse Chat</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <h2>Pipverse</h2>
+        <p>3 Events</p>
+        <button class="browse-channels">Browse Channels</button>
+        <p class="members">Members</p>
+        <p class="moderator-only">moderator-only</p>
+      </div>
+
+      <!-- Channel List -->
+      <div class="sidebar-channels">
+        <h3>WELCOME TO PIPVERSE</h3>
+        <ul>
+          <li># rules</li>
+          <li># announcements</li>
+          <li># important-info</li>
+          <li># brokers</li>
+          <li># exclusive-deals</li>
+          <li># Live Trading With PappiFx</li>
+        </ul>
+
+        <h3>FREE ACCESS</h3>
+        <ul>
+          <li># journal</li>
+          <li># trade-breakdown</li>
+          <li># members-profits</li>
+          <li># chat-hub</li>
+          <li># Free Live (Occasionally)</li>
+        </ul>
+
+        <h3>PREMIUM ACCESS</h3>
+        <ul>
+          <li># signal</li>
+          <li># general</li>
+          <li># q-and-a</li>
+        </ul>
+
+        <h3>ELITE ACCESS</h3>
+        <ul>
+          <li># forum-discussion</li>
+          <li># one-on-one-schedule</li>
+          <li># A Coaching Live Call</li>
+          <li># Backtesting</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Chat Area -->
+    <div class="chat-area">
+      <div class="chat-header">
+        <h3># rules</h3>
+      </div>
+      <div class="chat-messages" id="chat-messages">
+        <!-- Messages will be added here dynamically -->
+      </div>
+      <div class="chat-input">
+        <textarea id="message-input" placeholder="Type a message..."></textarea>
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
